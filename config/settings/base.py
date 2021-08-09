@@ -192,5 +192,10 @@ LOGGING = {
             'level': 'INFO',
             'propagate': False,
         },
-    }
+        'pybo': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+
+    },
 }
